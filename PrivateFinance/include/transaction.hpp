@@ -2,7 +2,7 @@
 
 #include <string>
 
-// Represents a single financial transaction (income or expense)
+/// Represents a single financial transaction (income or expense)
 class Transaction {
 public:
     // Type of transaction: Income or Expense
