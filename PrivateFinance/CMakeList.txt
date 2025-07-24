@@ -8,4 +8,4 @@ file(GLOB SOURCES
     src/*.cpp
     src/UI/*.cpp
 )
-add_executable(PrivateFinance ${SOURCES})
+target_include_directories(PrivateFinance ${CMAKE_SOURCE_DIR}/include)
